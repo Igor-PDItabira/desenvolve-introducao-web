@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulário de Pesquisa</title>
+	</head>
+	<body>
+    <h1>Pesquisa de satisfação</h1>
+    <form method="post" action="processsar-pesquisa.html">
+      <section>
+        <h2>Dados de Contato</h2>
+        <p>
+          <label for="nome">Nome do usuário:</label>
+          <input type="text" id="nome"/>
+        </p>
+        <p>
+          <label for="email">E-mail do usuário:</label>
+          <input type="e-mail" id="email"/>
+        </p>
+        <p>
+          <label for="telefone">Telefone do usuário:</label>
+          <input type="tel" id="telefone"/>
+        </p>
+      </section>
+      <section>
+        <h2>Dados de Pesquisa</h2>
+        <p>
+          Você gosta da escola que estuda?
+          <input type="radio" id="sim" name="gosta-escola"/>
+          <label for="sim">Sim</label>
+          <input type="radio" id="nao" name="gosta-escola"/>
+          <label for="nao">Não</label>
+        </p>
+        <p>
+          Indique o quanto você gosta da sua escola, sendo 1 não gosta e 5 gosta muito:
+          <input type="radio" id="1" name="nivel-escola"/>
+          <label for="1">1</label>
+          <input type="radio" id="2" name="nivel-escola"/>
+          <label for="2">2</label>
+          <input type="radio" id="3" name="nivel-escola"/>
+          <label for="3">3</label>
+          <input type="radio" id="4" name="nivel-escola"/>
+          <label for="4">4</label>
+          <input type="radio" id="5" name="nivel-escola"/>
+          <label for="5">5</label>
+        </p>
+        <p>
+          Você indicaria a sua escola para outro estudante?
+          <select>
+            <option>Sim</option>
+            <option>Talvez</option>
+            <option>Não</option>
+          </select>
+        </p>
+        <p>
+          <input type="checkbox" id="compartilha" />
+          <label for="compartilha">Autorizo o compartilhamento dos meus dados.  </label>
+        </p>
+      </section>
+      <input type="submit" value="Enviar"/>
+    </form>
+  </body>
