@@ -235,7 +235,7 @@ a:hover{
 }
 
 @media screen and (max-width: 768px){
-	.design-selection{
+	#design-selection{
 		position: static;
 		width: 100% 
 	}
@@ -264,7 +264,7 @@ a:hover{
 		color: #204012;
 	}
 	
-	.design-selection{
+	#design-selection{
 		position: static;
 		width: 100% 
 	}
