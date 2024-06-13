@@ -106,7 +106,7 @@
 
 #design-selection{
 	position: absolute;
-	top: 520px;
+	top: 480px;
 	left: 62%;
 	padding-left: 1%;
 	padding-right: 1%;
@@ -208,4 +208,28 @@ abbr{font-variant: small-caps;}
 
 .participation h3{
 	align-self: center;
+}
+
+a{
+	color: #B9D99A
+}
+
+a:hover{
+	color: #5c6c4d
+}
+
+.main p:first-of-type:firs-letter{
+	font-size: 3em;
+	font-family: 'Arial', 'serif';
+	float:left;
+}
+
+.design-selection li{
+	border-top: #204012 solid 1px;
+	padding-top: 5px
+}
+
+.design-selection li:last-of-type{
+	border-bottom: #204012 solid 1px;
+	padding-bottom: 5px
 }
