@@ -233,3 +233,44 @@ a:hover{
 	border-bottom: #204012 solid 1px;
 	padding-bottom: 5px
 }
+
+@media screen and (max-width: 768px){
+	.design-selection{
+		position: static;
+		width: 100% 
+	}
+	.explanation{
+		width: 1000%;
+		border-right: none;
+	}
+	#zen-intro{
+		height: auto;
+	}
+	.participation{
+		display-direction: column;
+	}
+	p{
+		text-indent: 0;
+	}
+}
+
+@media print {
+	html{
+		font-family: 'Times New Roman', Times, serif;
+	}
+	
+	#zen-intro header{
+		background-color: #2F591B;
+		color: #204012;
+	}
+	
+	.design-selection{
+		position: static;
+		width: 100% 
+	}
+	
+	.explanation{
+		width: 1000%;
+		border-right: none;
+	}
+}
