@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Times New Roman', serif; 
+    color: #333; 
+}
+
+h1, h2{
+	text-align: center;
+}
+
+nav {
+    background-color: #f4f4f4; 
+    position: fixed; 
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+header img {
+    border-radius: 50%;
+    width: 165px;
+    height: 175px;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+footer {
+    background-color: #ddd; 
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#rodape li { 
+    list-style-type: none; 
+}
+
+div{
+    padding: 2px;
+}
+
+#educacao{
+	width: 50%;
+	border-right: #1f295c;
+	padding-right: 2%;
+}
+#experiencia{
+	width: 50%;
+	position: absolute;
+	top: 570px;
+	left: 49%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+
+@media screen and (max-width: 768px){
+        nav {
+	    position: fixed;
+            top: 0;
+            left: 0;
+            height: 20%;
+            width: 20%; /* Define a largura do menu */
+	} 	
+        nav ul {
+	    display: flex;
+            flex-direction: column; 
+	    padding-top: 7%;
+	    padding-left: 1%;
+        }
+	nav ul li {
+	    padding: 2px;
+        }
+
+	#educacao{
+		position: static;
+		width: 100% 
+	}
+
+	#experiencia{
+		position: static;
+		width: 100% 
+	}
+
+
+	p{
+		text-indent: 0;
+	}
+}
